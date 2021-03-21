@@ -1,19 +1,17 @@
 import Head from "next/head";
 import Home from "../components/Home";
-import BigNews from "../components/BigNews";
-import SmallNews from "../components/SmallNews";
+import NewNews from "../components/NewNews";
 
 export default function Index() {
   return (
     <div>
       <Head>
-        <title>News</title>
+        <title>Create News</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Home>
-        <BigNews />
-        <SmallNews />
+        <NewNews />
       </Home>
     </div>
   );
