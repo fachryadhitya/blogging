@@ -1,5 +1,4 @@
 export default function DetailNews({ data }) {
-  console.log(data);
   return (
     <div className="md:max-w-screen-md lg:max-w-screen-lg mx-auto">
       <span className="font-serif font-bold">{data.Date}</span>

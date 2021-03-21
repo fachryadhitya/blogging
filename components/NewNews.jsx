@@ -36,7 +36,6 @@ export default function NewNews() {
           onSubmit={async (values, { resetForm }) => {
             const res = await submitHandler(values);
             if (res) {
-              console.log("succes");
               resetForm(initialValues);
             }
           }}

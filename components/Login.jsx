@@ -31,7 +31,6 @@ export default function LoginComponent() {
       const result = data.findIndex(
         (item) => item.email === email && item.password === password
       );
-      console.log(result);
       if (result !== -1) {
         Cookies.set("token", email);
         router.push("/");
