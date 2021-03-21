@@ -26,11 +26,6 @@
       "id": 1,
       "email": "admin@email.com",
       "password": "admin"
-    },
-    {
-      "email": "fachry@a.com",
-      "password": "1234",
-      "id": 2
     }
   ]
 }
